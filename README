@@ -1,0 +1,20 @@
+README
+===================================================
+This is the application for communicating with the
+client running on the PC to send the touch coordinates, 
+ activity, pressure and move or click the mouse accordingly.
+
+This is primarily meant for communicating over
+USB via ADB Port forwarding that is why it is
+only server and not client.
+
+Before executing
+(Execute on PC)
+adb forward tcp:10911 tcp:10911
+
+It is programmed to communicate over port no 10911
+
+Aditya Arun
+IIIrd Year 
+B.E. Computer Science and Engineering
+MIT Manipal
